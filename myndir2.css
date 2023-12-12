@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+h1,h2,h3,h5,figcaption{
+    font-family: Black Ops One;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.oldoneeye {
+
+    background-color: tomato;
+}
+
+.pyrovore {
+    background-color: firebrick;
+}
+
+.screamerkiller {
+    background-color: darkcyan;
+}
+
+.tervigon {
+    padding: 2px;
+    background-color: tomato;
+    border: 4px solid black;
+}
+
+.swarmlord {
+    border: 1px solid black;
+    background-color: tomato;
+    font-weight: bold;
+
+}
+
+.mucoloidsporemine {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 600px) {
+    .mucoloidsporemine {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .mucoloidsporemine {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.hiveguard {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.hierophant {
+    padding: 2px;
+    border: 4px solid tomato;
+    float: left;
+}
+
+.neurotyrant {
+    background-color: firebrick;
+}
+
+.biotitan {
+    border: 1px solid black;
+    background-color: darkcyan;
+    font-weight: bold;
+}
+
+.harridan {
+    border: 1px solid black;
+    background-color: darkcyan;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sporocyst {
+    float: left;
+}
+
+@media screen and (min-width: 600px) {
+    .sporocyst {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.wingedtyranidprime{
+    text-align: center;
+
+}
+
+.tyranidprime{
+    border: 2px solid darkcyan;
+    Text-decoration: none;
+    font-size: large;
+    
+}
+
+.tyranidprime:hover{
+    color:white ;
+    font-size: larger;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+ background-color: tomato;
+}
+h1,h2,h3,h5{
+    font-family: Black Ops One;
+
+}
+
+
+.neurothrope{
+    border: 2px solid black;
+    background-color: darkcyan;
+    display: flex;
+    float: right;
+}
+
+.genestealer{
+    border: 2px solid;
+    background-color: darkcyan;
+    display: flex;
+    float: right;
+}
+
+.wingedtyranidprime{
+    text-align: center;
+
+}
+
+.tyranidprime{
+    border: 2px solid darkcyan;
+    Text-decoration: none;
+    font-size: large;
+    
+}
+a:visited{
+    color: blue;
+}
+.tyranidprime:hover{
+    color: white ;
+    font-size: larger;
+}
+
+.screamerkiller{
+    margin-left: 20px; 
+    display:block; 
+    z-index:20; 
+    cursor: pointer; 
+}
+
+.screamerkiller:hover{
+  transform: scale(1.2)
+}
+
+.redterror{
+    border: 2px solid darkcyan;
+    background-color: darkcyan;
+}
+
+.tyranidwarrior{
+    Text-decoration: none;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    overflow: hidden;
+    margin-left: 700px;
+}

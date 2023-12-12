@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+    background-color: tomato;
+}
+
+h1,h2,h3,h5{
+    font-family: Black Ops One;
+
+}
+
+.tyranidwarrior{
+    Text-decoration: none;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    overflow: hidden;
+    margin-left: 700px;
+}
+
+.screamerkiller{
+
+    display:block; 
+    z-index:20; 
+    cursor: pointer; 
+}
+
+.screamerkiller:hover{
+  transform: scale(1.11)
+}
+
+.gargoyle{
+   
+    border: 3px darkcyan solid;
+    background-color: darkcyan;
+    
+}
+
+.biovore{
+   display: grid;
+   max-width: 100%;
+   height: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wingedtyranidprime{
+    text-align: center;
+
+}
+
+.heirophant{
+    text-align: center;
+
+}
+
+.tyranidprime{
+    border: 2px solid darkcyan;
+    Text-decoration: none;
+    font-size: large;
+    
+}
+
+.tyranidprime:hover{
+    color: white ;
+    font-size: larger;
+}
+
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 424px) {
+    .heirophant{
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .heirophant {
+      font-size: 30px;
+    }
+  }
