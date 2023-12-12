@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
-h1,h2,h3,h5,figcaption{
+h1,
+h2,
+h3,
+h5,
+figcaption {
     font-family: Black Ops One;
 
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -99,19 +104,19 @@ img {
     }
 }
 
-.wingedtyranidprime{
+.wingedtyranidprime {
     text-align: center;
 
 }
 
-.tyranidprime{
+.tyranidprime {
     border: 2px solid darkcyan;
     Text-decoration: none;
     font-size: large;
-    
+
 }
 
-.tyranidprime:hover{
-    color:white ;
+.tyranidprime:hover {
+    color: white;
     font-size: larger;
 }
