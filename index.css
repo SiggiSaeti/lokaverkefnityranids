@@ -70,6 +70,14 @@ h5 {
     font-size: larger;
 }
 
+.hivecrone {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 3px black solid;
+    background-color: darkcyan;
+    margin-top: 0px;
+}
+
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 424px) {
     .heirophant {
@@ -85,10 +93,40 @@ h5 {
     }
 }
 
-.hivecrone {
-    display: flex;
+@media screen and (min-width: 465px) {
+
+    .hivecrone {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 3px black solid;
+        background-color: darkcyan;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+
+    .hivecrone {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 3px black solid;
+        background-color: darkcyan;
+        margin-top: 0px;
+    }
+}
+
+.nornemmisary {
     border: 3px black solid;
     background-color: darkcyan;
-    float: left;
     margin-top: 0px;
 }
+
+@media screen and (max-width: 472px) {
+
+    .wingedtyranidprime {
+       display:grid;
+    }
+}
+
+
+

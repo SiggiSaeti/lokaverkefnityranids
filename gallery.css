@@ -41,10 +41,10 @@ h5 {
 }
 
 .biovore {
-    display: grid;
+   margin-left: 50px;
     max-width: 100%;
     height: auto;
-    grid-template-columns: 1fr 1fr;
+   
 }
 
 .wingedtyranidprime {
@@ -68,8 +68,43 @@ h5 {
     color: white;
     font-size: larger;
 }
+/*{ 0 - 37.5em },*/
+@media screen and (max-width: 592px) {
 
+    .screamerkiller {
+        width: 99%;
+    }
+}
+/*{ 37.5 - 48em },*/
+@media screen and (max-width: 768px) {
+
+    .screamerkiller {
+        width: 99%;
+    }
+}
+/*{ 48em - 60em }*/
+@media screen and (max-width: 960px) {
+
+    .screamerkiller {
+        width: 99%;
+    }
+}
+/*{ 60em - 80em } */
+@media screen and (max-width: 1280px) {
+
+    .screamerkiller {
+        width: 99%;
+    }
+}
+/*,og { 80em + }*/
+@media screen and (min-width: 1281px) {
+
+    .screamerkiller {
+        width: 99%;
+    }
+}
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/*
 @media screen and (max-width: 424px) {
     .heirophant {
         font-size: 80px;
@@ -79,5 +114,27 @@ h5 {
 @media screen and (min-width: 425px) {
     .heirophant {
         font-size: 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 650px) {
+
+    .hivecrone {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 3px black solid;
+        background-color: darkcyan;
+        margin-top: 0px;
+    }
+}
+*/
+
+/*{ 0 - 37.5em },*/
+@media screen and (max-width: 365px) {
+
+    .wingedtyranidprime {
+       display:grid;
     }
 }
